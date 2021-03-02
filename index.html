@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=800">
+
+    <meta name="description" content="A visualisation of the Diatomic Chain model
+    in Condensed Matter Physics.">
+
+    <title>Diatomic Chain</title>
+
+
+    <link rel="stylesheet" href="stylesheets/style.css" />
+
+    <script type="text/javascript" src="js/jsxgraphcore.js"></script>
+    <script type="text/javascript" src="js/two.min.js"></script>
+  </head>
+  <body>
+      <h1>Diatomic Chain</h1>
+
+      <h3>Optical Branch</h3>
+
+      <div id="opticalTwoContainer" class="twoContainer">
+        <noscript>
+          Javascript is not enabled in your browser. Please enable it to view this animation.
+        </noscript>
+      </div>
+
+      <h3>Acoustic Branch</h3>
+
+      <div id="acousticTwoContainer" class="twoContainer">
+        <noscript>
+          Javascript is not enabled in your browser. Please enable it to view this animation.
+        </noscript>
+      </div>
+
+      <h3 class="">Dispersion Plot</h3>
+      <p>
+        <button id="subtractButton" type="button">-</button>
+        Click the buttons to add or subtract a reciprocal lattice vector.
+        <button id="addButton" type="button">+</button>
+      </p>
+
+    <div id="dispersionPlot">
+      <noscript>
+        Javascript is not enabled in your browser. Please enable it to view this
+        JSXGraph element.
+      </noscript>
+    </div>
+
+    <script type="text/javascript" src="js/lib.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
